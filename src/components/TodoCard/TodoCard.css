@@ -1,0 +1,20 @@
+.todo-card {
+    background-color: #ffffff; /* White background for each card */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px; /* Padding inside the card */
+    width: 100%; /* Full width of the container */
+    max-width: 400px; /* Maximum width for better readability */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.todo-card:hover {
+    transform: translateY(-2px); /* Lift the card slightly on hover */
+}
+
+.todo-card.completed {
+    background-color: #e0f7e0; /* Light green background for completed tasks */
+    border-color: #4caf50; /* Darker border for completed tasks */
+    text-decoration: line-through; /* Strike-through text */
+}

@@ -1,0 +1,26 @@
+.header {
+    background-color: #282c34; /* Dark background for the header */
+    padding: 20px; /* Add some padding */
+    color: white; /* Text color */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out the nav items */
+    align-items: center; /* Center items vertically */
+}
+.header ul {
+    width: 100%; /* Make the list take up the full width */
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Use flexbox for the list */
+    justify-content: space-between;
+}
+.header a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Link color */
+    padding: 10px 15px; /* Add padding to links */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+.header a:hover {
+    background-color: #61dafb; /* Change background on hover */
+    border-radius: 5px; /* Rounded corners */
+}

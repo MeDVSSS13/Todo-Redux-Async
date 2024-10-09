@@ -1,0 +1,36 @@
+.create-todo {
+    background-color: #e7e5e5; /* Light background for contrast */
+    padding: 20px; /* Same padding as header */
+    border-radius: 5px; /* Slightly rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin: 20px 0; /* Add some margin for spacing */
+}
+
+.create-todo form {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out input and button */
+    align-items: center; /* Center items vertically */
+}
+
+.create-todo input {
+    flex: 1; /* Allow input to take available space */
+    padding: 10px; /* Add padding for comfort */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Match rounded corners */
+    margin-right: 10px; /* Space between input and button */
+    font-size: 16px; /* Consistent font size */
+}
+
+.create-todo button {
+    background-color: #61dafb; /* Match hover effect from header */
+    color: white; /* Text color for button */
+    border: none; /* No border */
+    padding: 10px 15px; /* Consistent padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.create-todo button:hover {
+    background-color: #21a1f1; /* Darker shade on hover */
+}
